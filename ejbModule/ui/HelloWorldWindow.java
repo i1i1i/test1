@@ -102,7 +102,6 @@ public class HelloWorldWindow {
 		layeredPane.add(comboBox);
 		comboBox.setMaximumRowCount(6);
 		comboBox.setFont(customFont);
-		
 		comboBox.setModel(new DefaultComboBoxModel(bp2.toArray()));
 
 		JLabel lblNewLabel = new JLabel(
